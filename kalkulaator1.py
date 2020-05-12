@@ -1,6 +1,11 @@
-arv1 = int(input("Sisesta esimene arv "))
-arv2 = int(input("Sisesta teine arv "))
+tehe = input("Sisesta millist tehet tahad ")
 
-vastus = arv1 + arv2
+arv1 = float(input("Sisesta mingi arv "))
+arv2 = float(input("Sisesta teine arv "))
 
-print("Vastus on " + str(vastus))
+if tehe == "liitmine":
+    vastus = arv1 + arv2
+else:
+    vastus = arv1 - arv2
+    
+print("Vastus on " + (str(vastus))
